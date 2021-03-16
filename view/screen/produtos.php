@@ -13,7 +13,7 @@ print '</h5>';
             <th>ID</th>
             <th>Empresa</th>
             <th>Produto</th>
-            <th>Disco</th>
+            <th>Disco (NWM)</th>
             <th>RAM</th>
             <th>Preço</th>
             <th>Moeda</th>

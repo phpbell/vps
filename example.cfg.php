@@ -8,6 +8,7 @@ $cfg=[
         // https://bot.tinyter.com/
         'dolar'=>5.62,//16mar2021
         'euro'=>6.70,//16mar2021
+        'libra'=>'7.73',//16mar2021
         'rublo'=>0.08//16mar2021
     ],
     'root'=>__DIR__,

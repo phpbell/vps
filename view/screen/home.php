@@ -51,12 +51,14 @@
                             <div class="form-group">
                                 <label for="moeda" class="col-form-label col-form-label-sm">Moeda</label>
                                 <select id="moeda" name="moeda" class="form-control form-control-sm">
-                                    <option value="dolar">Dólares</option>
-                                    <option value="euro">Euros</option>
+                                    <option value="dolar">US$ Dólares</option>
+                                    <option value="euro">€ Euros</option>
                                     <option value="grivnia">Grívnias</option>
-                                    <option value="real">Reais</option>
-                                    <option value="rublo">Rublos</option>
-                                    <option value="rupia-indonesia">Rupia Indonésia</option>
+                                    <option value="libra">£ Libra esterlina</option>
+                                    <option value="naira">₦ Naira (Nigéria)</option>
+                                    <option value="real">R$ Reais</option>
+                                    <option value="rublo">₽ Rublos</option>
+                                    <option value="rupia-indonesia">Rp Rupia Indonésia</option>
                                 </select>
                             </div>
                         </div>
