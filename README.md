@@ -1,9 +1,9 @@
-# PHPBell
+# VPS
 
-PHP framework with [Medoo](https://medoo.in)
+Preços de VPS em BRL
 
-## Install
+## Instalação
 
 ```bash
-composer create-project bell/bell <project-name>
+composer install
 ```
