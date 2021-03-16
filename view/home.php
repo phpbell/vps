@@ -1,10 +1,7 @@
 <?php
-return function($str,$assetsHeader,$dbInfo){
-    print '<center>';
-    print $assetsHeader;
-    print 'hello '.$str;
-    print '</center>';
-    print '<pre>';
-    print implode('<br>',$dbInfo);
-    print '</pre>';
+return function($header,$produtos){
+    $title='Preços de hospedagens';
+    require 'inc/header.php';
+    require 'screen/home.php';
+    print $footer;
 };

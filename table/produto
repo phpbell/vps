@@ -1,0 +1,10 @@
+id
+empresa
+produto
+disco
+ram
+moeda
+preco
+created_at
+updated_at
+url
