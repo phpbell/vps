@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "bell/framework": "v0.1.0"
+        "bell/framework": "^0.1"
     },
     "scripts": {
         "post-root-package-install": [
