@@ -6,9 +6,9 @@ $cfg=[
     ],
     'moedas'=>[
         // https://bot.tinyter.com/
-        'dolar'=>5.10,//16mar2021
-        'euro'=>5.58,//16mar2021
-        'rublo'=>0.06//16mar2021
+        'dolar'=>5.62,//16mar2021
+        'euro'=>6.70,//16mar2021
+        'rublo'=>0.08//16mar2021
     ],
     'root'=>__DIR__,
     'showErrors'=>true,
