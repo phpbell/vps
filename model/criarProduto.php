@@ -1,9 +1,6 @@
 <?php
 return function($db,$produto){
-    if($db()->insert('produto',$produto)){
-        return true;
-    }else{
-        die(var_dump($db->error()));
-    }
+    $db()->insert('produto',$produto);
+    return $db()->id();
 };
 ?>
