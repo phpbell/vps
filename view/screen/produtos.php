@@ -18,6 +18,7 @@ print '</h5>';
             <th>Preço</th>
             <th>Moeda</th>
             <th>R$</th>
+            <th>R$/hora</th>
             <th>Criado em</th>
         </tr>
     </thead>
@@ -47,7 +48,10 @@ print '</h5>';
             //setlocale(LC_MONETARY, 'pt_BR');
             //$precoEmReais=money_format('%i', $precoEmReais) . "\n";
             $precoEmReais=number_format($precoEmReais,2);
+            $precoEmReais=str_replace(",","",$precoEmReais);
             print '<td>'.$precoEmReais.'</td>';
+            $precoEmReaisPorHora=$precoEmReais/720;
+            print '<td>'.number_format($precoEmReaisPorHora,3).'</td>';
             print '<td>'.date('d/M/Y',$produto['created_at']).'</td>';
             print '</tr>';
         }
@@ -62,7 +66,7 @@ $(document).ready(function() {
         "language": {
             "url": "http://cdn.datatables.net/plug-ins/1.10.19/i18n/Portuguese-Brasil.json"
         },
-        "order": [[ 7, "asc" ]]
+        "order": [[ 8, "asc" ]]
     } );
 } );
 </script>
